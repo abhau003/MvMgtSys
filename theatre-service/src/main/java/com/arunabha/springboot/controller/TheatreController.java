@@ -6,7 +6,6 @@ import com.arunabha.springboot.model.Theatre;
 import com.arunabha.springboot.service.TheatreService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,6 +17,7 @@ import java.util.List;
 @RestController
 public class TheatreController {
 
+
     @Autowired
     private RestTemplate restTemplate;
 
@@ -26,7 +26,8 @@ public class TheatreController {
 
     @RequestMapping(method= RequestMethod.GET,value="/theatre/{theatreid}")
     @HystrixCommand(fallbackMethod = "failedmoviedetails")
-    public Theatre GetMatchingTheatreCityController(@PathVariable int theatreid ) {
+    public Theatre GetMatchingTheatreCityController(@PathVariable int theatreid) {
+
         //return (Theatre) theatreService.GetMatchingCityMatchingTheatreService(theatreid);
         String url = "http://movie-service/movie-details/" + theatreid;
         System.out.println("URL: " +url);
@@ -58,4 +59,5 @@ public class TheatreController {
         theatre.setMsg("Movie API is under Maintenance, please check back Later");
         return theatre;
     }
+
 }

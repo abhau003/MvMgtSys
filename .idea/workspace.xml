@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cb57b53-a1bd-4dc6-8d36-33cbb02ef6b2" name="Default Changelist" comment="" />
+    <list default="true" id="3cb57b53-a1bd-4dc6-8d36-33cbb02ef6b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theatre-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/theatre-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theatre-service/src/main/java/com/arunabha/springboot/controller/TheatreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/theatre-service/src/main/java/com/arunabha/springboot/controller/TheatreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theatre-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/theatre-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iXBFmbgaphH0mfKUVHImtucMjI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,14 +59,33 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="460" y="105" key="FileChooserDialogImpl" timestamp="1602044308879">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="460" y="105" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1602044308879" />
-    <state x="557" y="261" key="Github.ShareDialog" timestamp="1602044407702">
+    <state x="557" y="261" key="Github.ShareDialog" timestamp="1602143346453">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="557" y="261" key="Github.ShareDialog/0.0.1360.728@0.0.1360.728" timestamp="1602044407702" />
+    <state x="557" y="261" key="Github.ShareDialog/0.0.1360.728@0.0.1360.728" timestamp="1602143346453" />
+    <state x="446" y="63" key="Github.UntrackedFilesDialog" timestamp="1602044604323">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="446" y="63" key="Github.UntrackedFilesDialog/0.0.1360.728@0.0.1360.728" timestamp="1602044604323" />
+    <state x="489" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602143404245">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="489" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728@0.0.1360.728" timestamp="1602143404245" />
   </component>
 </project>
